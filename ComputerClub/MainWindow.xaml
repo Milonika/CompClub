@@ -36,7 +36,7 @@
             <Image Margin="10,276,169,453" Source="Vector (1).png" Stretch="Fill"/>
             <Image Margin="14,322,170,400" Source="Vector (2).png" Stretch="Fill"/>
 
-            <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
+            <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2" Navigated="MainFrame_Navigated"/>
         </Grid>
 
     </Border>

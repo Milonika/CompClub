@@ -62,5 +62,10 @@ namespace ComputerClub
         {
             //MainFrame.Navigate(new Page1());
         }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)//
+        {
+
+        }
     }
 }
