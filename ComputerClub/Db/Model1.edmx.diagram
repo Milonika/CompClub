@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ecc4784599d3405ca93f99ab180ea50c" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="ClubModel.Authorization" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.Booking" Width="1.5" PointX="9.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.Client" Width="1.5" PointX="7.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.Cooler" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.CPU" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.Employees" Width="1.5" PointX="7.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.GameZone" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.GPU" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.Motherboard" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.PC" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.PlayPlaces" Width="1.5" PointX="7.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.PowerUnit" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.RAM" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.Rols" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClubModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="ClubModel.FK_Authorization_Rols" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_Client_Authorization" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_Booking_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_Booking_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_Booking_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_Booking_PlayPlaces" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_Booking_PlayPlaces1" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PC_Cooler" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PC_CPU" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_GameZone_PC" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PlayPlaces_GameZone" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PC_GPU" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PC_Motherboard" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PC_PowerUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="ClubModel.FK_PC_RAM" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
